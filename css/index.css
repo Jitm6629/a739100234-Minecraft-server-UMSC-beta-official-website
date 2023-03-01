@@ -1,20 +1,14 @@
-.bg_png{
+.bg_png{/*这是背景图*/
 	width: expression(window.screen.width);
 	height: 700px;
-	background-image: linear-gradient(to top,rgb(255,255,255),transparent),url("../img/bg_img.png");
+	background-image: linear-gradient(to top,rgb(255,255,255),transparent),url("../img/bg_img.png");/*渐变效果*/
 	border: none;
-	width: 100%;
 }
-.hander_page{
+.hander_page{/*导航栏*/
 	height: 90px;
 	background-color: coral;
 }
-@font-face {
-	font-family: MC;
-	src: url("../font/Minecraft_font.woff");
-	font-weight: bold;
-}
-.hander_page a{
+.hander_page a{/*导航栏里的内容*/
 	line-height: 90px;
 	margin-left: 20px;
 	color: white;
@@ -25,9 +19,14 @@
 	height: 80px;
 	float: left;
 }
+@font-face {
+	font-family: MC;
+	src: url("../font/Minecraft_font.woff");
+	font-weight: bold;
+}
 .block{
 	clear: both;
 }
-a:hover{
+a:hover{/*动态效果*/
 	background-color: firebrick;
 }
