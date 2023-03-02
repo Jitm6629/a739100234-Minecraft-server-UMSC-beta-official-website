@@ -36,15 +36,67 @@ img{
 	width: 400px;
 }
 .screenshot{
-	height: 20px;
+	height: 250px;
+	margin-top: 20px;
 }
 .screenshot img{
-	float: right;
-	margin-right:35px ;
+	margin-left:35px ;
 	margin-top: 10px;
 }
-.screenshot h1{
+h1{
 	font-size: 50px;
 	font-family: MC;
 	text-align: center;
+}
+p{
+	text-align: center;
+	font-family: MC;
+	font-size: 20px;
+}
+.emblem{
+	height: 200px;
+	width: 200px;
+	margin-left: 20px;
+}
+.main div{
+	margin-top: 50px;
+	text-align: center;
+}
+p a{
+	ont-family: MC;
+	font-size: 20px;
+	color: royalblue;
+}
+li a{
+	ont-family: MC;
+	font-size: 20px;
+	color: royalblue;
+}
+li{
+	text-align: center;
+	font-family: MC;
+	font-size: 20px;
+}
+.map{
+	height: 700px;
+	width: 800px;
+}
+h2{
+	font-size: 40px;
+	font-family: MC;
+	text-align: center;
+}
+h2 a{
+	font-size: 40px;
+	font-family: MC;
+	text-align: center;
+}
+footer{
+	background-color: yellowgreen;
+	text-align: center;
+}
+footer a{
+	color: dodgerblue;
+	ont-family: MC;
+	font-size: 20px;
 }
